@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FCFAFA"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+          android:id="@+id/text1"
+          android:textAlignment="center"
+          android:text="Compass App"
+          android:textSize="28dp"
+          android:textStyle="bold"
+          android:layout_marginTop="20dp"/>
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/img"
+         android:layout_below="@id/text1"
+         android:layout_marginTop="100dp"
+         android:layout_centerInParent="true"
+         android:background="@drawable/finalcomp"
+         android:layout_marginLeft="5dp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+          android:layout_below="@id/img"
+          android:id="@+id/text2"
+          android:textStyle="bold"
+         android:layout_marginTop="100dp"
+          android:text="The Angle is displayed here"
+          android:textSize="28dp"
+          android:textAlignment="center"/>
+
+</RelativeLayout>
